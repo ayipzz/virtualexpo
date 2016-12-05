@@ -1,0 +1,217 @@
+/*
+* @Author: ayipzz
+* @Date:   2016-10-18 13:16:53
+* @Last Modified by:   ayipzz
+* @Last Modified time: 2016-10-20 16:04:40
+*/
+.mg-top-5 { margin-top: 5px; }
+.mg-top-7 { margin-top: 7px; }
+.mg-top-10 { margin-top: 10px; }
+.pd_l_0 { padding-left: 0 }
+.pd_r_0 { padding-right: 0; }
+.navbar {
+	background-color: #00a5bd;
+	border:0;
+	border-radius: 0;
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 3px 4px rgba(0,0,0,.1);
+	box-shadow: 0 3px 4px rgba(0,0,0,.1);
+	z-index: 999;
+}
+.navbar-inverse a.navbar-brand, .navbar-inverse ul.nav li a{
+	color: #fff;
+}
+.navbar-inverse ul.nav li ul li a{
+	color: #000;
+}
+.navbar-inverse ul.nav li ul li.active a{
+	background: #00a5bd;
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: rgba(0,0,0,.2);
+}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border:0;
+}
+.input-search,.input-group-addon {
+	background-color: rgba(255,255,255,.3);
+	border-color:transparent;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+	box-shadow: 0 2px 2px rgba(0,0,0,.1);
+	color: #fff;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+.btn, .event-list .event, .panel {
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+.input-search::-webkit-input-placeholder {
+   color: rgba(255,255,255,.6);
+}
+.input-search:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255,255,255,.6);  
+}
+.input-search::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(255,255,255,.6);  
+}
+.input-search:-ms-input-placeholder {  
+   color: rgba(255,255,255,.6);  
+}
+.input-search:hover, .input-search:hover + span.input-group-addon {
+	background-color: rgba(255,255,255,.4);
+}
+.input-search:focus, .input-search:focus + span.input-group-addon {
+	background-color: #fff;
+	color: #333;
+	border-color:transparent;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+.input-search:focus + span.input-group-addon i {
+	color: #888
+}
+.map-container{
+	margin-top: -20px;
+}
+.popover {
+	min-width : 400px;
+	border: 2px solid #00a5bd;
+	padding: 0px;
+}
+.popover-title {
+	background-color: #00a5bd;
+	border-bottom: 0;
+	color: #fff;
+	border-radius: 3px 3px 0 0;
+}
+.popover.bottom>.arrow:after {
+	border-bottom-color: #00a5bd;
+}
+.popover-content label {
+	color: #00a5bd;
+}
+.btn-primary {
+	background-color: #00a5bd;
+	border-color: #088698;
+}
+.btn-primary:hover {
+	background-color: #088698;
+}
+i.form-control-feedback {
+	float: left;
+}
+.event-header {
+	background-color: #3e5458;
+	color: #fff;
+	padding: 10px 15px 5px;
+}
+.event-header h3 {
+	margin: 0;
+}
+.event-list {
+	background-color: #fff;
+}
+.event-list .event {
+	background-color: #344649;
+	color: #fff;
+	border:0;
+	padding: 0;
+	border-radius: 6px;
+}
+.event-list .event .caption {
+	padding: 5px 9px 8px;
+	color: #fff;
+}
+.event-list .event .caption h3 {
+	margin: 0px;
+	font-size: 23px;
+	margin-bottom: 5px;
+}
+.event-list .event .caption p {
+	margin: 0;
+	font-size: 12px;
+}
+#myMaps {
+	height: 480px;
+	width: 100%px;
+	border: 1px solid black;
+}
+#myMaps div {
+	height: 480px;
+	margin: auto auto;
+	width: 600px;
+}
+#controls {
+	background-color: lightGrey;
+	height: 50px;
+	width: 100%;
+	z-index:-1;
+}
+/*
+div#mapLoading {
+	font-size: 10em;
+	left: 50px;
+	position: absolute;
+	top: 60px;
+	z-index: -1;
+}
+*/
+.debugPath {
+	stroke: orange;
+	stroke-width: 5;
+}
+
+.debugRoom {
+	fill: red;
+	stroke: red;
+	stroke-width: 4;
+}
+
+.wayfindingRoom {
+	fill: #ffc;
+	stroke: blue;
+	stroke-width: 2;
+	stroke-dasharray: 5 3;
+}
+
+.wayfindingRoom path {
+	fill: green;
+}
+
+g.startPin path {
+	fill: cyan;
+}
+
+g.destinationPin path {
+	/*fill: green;*/
+}
+.jmb-reserve {
+	margin-top:-20px;
+	padding:0;
+	padding-top:6px;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.jmb-reserve .breadcrumb{
+	background-color: transparent;
+	border:0;
+	color:#fff;
+	margin-bottom: 0;
+}
+.stand_detail p {
+	border-top: 1px solid #ddd;
+	padding-top:10px;
+}
